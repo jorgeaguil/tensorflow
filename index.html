@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TImage Classification</title>
+  <!-- Import TensorFlow.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <!-- Import MobileNet model -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+</head>
+<body>
+  <h1>TensorFlow.js Image Classification</h1>
+  <input type="file" accept="image/*" onchange="previewImage(event)">
+  <img id="image-preview" src="" alt="Preview" style="max-width: 300px;">
+  <div id="prediction"></div>
+
+  <!-- importar el archivo tensor.js -->
+    <script src="tensor.js"></script>
+</body>
+</html>
+
